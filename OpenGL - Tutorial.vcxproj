@@ -145,6 +145,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="Camera.cpp" />
     <ClCompile Include="glad.c" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="shaderClass.cpp" />
@@ -159,6 +160,7 @@
     <Text Include="default.frag" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="Camera.h" />
     <ClInclude Include="EBO.h" />
     <ClInclude Include="shaderClass.h" />
     <ClInclude Include="Texture.h" />
@@ -167,6 +169,10 @@
   </ItemGroup>
   <ItemGroup>
     <Image Include="..\..\..\Downloads\pop_cat.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="light.frag" />
+    <None Include="light.vert" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
